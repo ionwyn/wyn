@@ -7,10 +7,10 @@ function itemsLoaded(items) {
   };
 }
 
-const names = ['Max', 'Philip', 'Alex', 'Irina', 'Vovan'];
+const names = ['Kyle', 'Grazietta', 'Gaurang', 'Naomi', 'Magnus'];
 const randomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1) + min);
-const labels = ['Urgent', 'Interview'];
+const labels = ['Urgent', 'Important'];
 
 export function loadItems(day) {
   // Do items loading here

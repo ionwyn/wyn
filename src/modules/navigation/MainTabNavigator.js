@@ -75,17 +75,17 @@ export default createBottomTabNavigator(
         ),
       },
     },
-    Grids: {
-      screen: GridsScreen,
-      navigationOptions: {
-        header: (
-          <View style={styles.headerContainer}>
-            <Image style={styles.headerImage} source={hederBackground} />
-            <Text style={styles.headerCaption}>Grids</Text>
-          </View>
-        ),
-      },
-    },
+    // Grids: {
+    //   screen: GridsScreen,
+    //   navigationOptions: {
+    //     header: (
+    //       <View style={styles.headerContainer}>
+    //         <Image style={styles.headerImage} source={hederBackground} />
+    //         <Text style={styles.headerCaption}>Grids</Text>
+    //       </View>
+    //     ),
+    //   },
+    // },
     Pages: {
       screen: PagesScreen,
       navigationOptions: {
@@ -97,17 +97,17 @@ export default createBottomTabNavigator(
         ),
       },
     },
-    Components: {
-      screen: ComponentsScreen,
-      navigationOptions: {
-        header: (
-          <View style={styles.headerContainer}>
-            <Image style={styles.headerImage} source={hederBackground} />
-            <Text style={styles.headerCaption}>Components</Text>
-          </View>
-        ),
-      },
-    },
+    // Components: {
+    //   screen: ComponentsScreen,
+    //   navigationOptions: {
+    //     header: (
+    //       <View style={styles.headerContainer}>
+    //         <Image style={styles.headerImage} source={hederBackground} />
+    //         <Text style={styles.headerCaption}>Components</Text>
+    //       </View>
+    //     ),
+    //   },
+    // },
   },
   {
     defaultNavigationOptions: ({ navigation }) => ({
@@ -122,15 +122,15 @@ export default createBottomTabNavigator(
           case 'Calendar':
             iconSource = iconCalendar;
             break;
-          case 'Grids':
-            iconSource = iconGrids;
-            break;
+          // case 'Grids':
+          //   iconSource = iconGrids;
+          //   break;
           case 'Pages':
             iconSource = iconPages;
             break;
-          case 'Components':
-            iconSource = iconComponents;
-            break;
+          // case 'Components':
+          //   iconSource = iconComponents;
+          //   break;
           default:
             iconSource = iconComponents;
         }
@@ -150,7 +150,7 @@ export default createBottomTabNavigator(
     swipeEnabled: false,
     tabBarOptions: {
       style: {
-        backgroundColor: colors.black,
+        backgroundColor: '#000000',
         borderTopWidth: 0.2,
         borderTopColor: '#4d4d4d',
       },
