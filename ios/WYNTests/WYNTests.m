@@ -12,13 +12,13 @@
 #import <React/RCTRootView.h>
 
 #define TIMEOUT_SECONDS 600
-#define TEXT_TO_LOOK_FOR @"Welcome to React!"
+#define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ReactNativeStarterTests : XCTestCase
+@interface WYNTests : XCTestCase
 
 @end
 
-@implementation ReactNativeStarterTests
+@implementation WYNTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
@@ -59,6 +59,7 @@
       return NO;
     }];
   }
+  
 #ifdef DEBUG
   RCTSetLogFunction(RCTDefaultLogFunction);
 #endif

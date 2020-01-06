@@ -16,6 +16,10 @@ PODS:
     - DoubleConversion
     - Folly/Default (= 2018.10.22.00)
     - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
   - glog (0.3.5)
   - RCTRequired (0.61.3)
   - RCTTypeSafety (0.61.3):
@@ -168,6 +172,11 @@ PODS:
     - Folly (= 2018.10.22.00)
     - glog
     - React-jsi/Default (= 0.61.3)
+  - React-jsi/Default (0.61.3):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
   - React-jsiexecutor (0.61.3):
     - DoubleConversion
     - Folly (= 2018.10.22.00)
@@ -354,6 +363,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   Yoga: 02036f6383c0008edb7ef0773a0e6beb6ce82bd1
 
-PODFILE CHECKSUM: f52acbc961d15ac4717d13022554dbe65758b5f1
+PODFILE CHECKSUM: b0380947435ae232603681b405c43631cc005fad
 
 COCOAPODS: 1.8.4
