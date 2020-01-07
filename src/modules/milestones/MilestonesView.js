@@ -19,15 +19,37 @@ const isTinder = true;
 
 export default function MilestonesScreen(props) {
   this.data = [
-    { time: '09:00', title: 'Event 1', description: 'Event 1 Description' },
-    { time: '10:45', title: 'Event 2', description: 'Event 2 Description' },
-    { time: '12:00', title: 'Event 3', description: 'Event 3 Description' },
-    { time: '14:00', title: 'Event 4', description: 'Event 4 Description' },
-    { time: '16:30', title: 'Event 5', description: 'Event 5 Description' },
+    {
+      time: 'Jan 1',
+      title: 'Knife throwing',
+      description: 'First place in accuracy',
+    },
+    {
+      time: 'Jan 3',
+      title: 'Data extraction',
+      description: 'Finished Naomi data extraction with zero error',
+    },
+    { time: 'Jan 4', title: 'Wyn', description: 'Wyn app is born' },
+    {
+      time: 'Jan 5',
+      title: 'Performed',
+      description: 'Played music at club ilia',
+    },
+    {
+      time: 'Jan 7',
+      title: 'First film',
+      description: 'Developed my first black and white film camera',
+    },
   ];
   return (
     <View style={styles.container}>
-      <Timeline data={this.data} innerCircle={'dot'} />
+      <Timeline
+        data={this.data}
+        innerCircle={'dot'}
+        lineColor={colors.smokyblack}
+        circleColor={colors.smokyblack}
+        descriptionStyle={{ color: 'gray' }}
+      />
     </View>
   );
 }
