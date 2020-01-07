@@ -10,12 +10,7 @@ import CalendarScreen from '../calendar/CalendarViewContainer';
 import GridsScreen from '../grids/GridsViewContainer';
 import PagesScreen from '../pages/PagesViewContainer';
 import ComponentsScreen from '../components/ComponentsViewContainer';
-
-const iconHome = require('../../../assets/images/tabbar/home.png');
-const iconCalendar = require('../../../assets/images/tabbar/calendar.png');
-const iconGrids = require('../../../assets/images/tabbar/grids.png');
-const iconPages = require('../../../assets/images/tabbar/pages.png');
-const iconComponents = require('../../../assets/images/tabbar/components.png');
+import Icon from '../../styles/icons';
 
 const hederBackground = require('../../../assets/images/topBarBg.png');
 
@@ -26,6 +21,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderBottomWidth: 2,
     paddingHorizontal: 10,
+    paddingTop: 7,
   },
   tabBarIcon: {
     width: 23,
@@ -117,30 +113,26 @@ export default createBottomTabNavigator(
         let iconSource;
         switch (routeName) {
           case 'Home':
-            iconSource = iconHome;
+            iconSource = 'ios-home';
             break;
           case 'Calendar':
-            iconSource = iconCalendar;
+            iconSource = 'ios-calendar';
             break;
           // case 'Grids':
           //   iconSource = iconGrids;
           //   break;
           case 'Pages':
-            iconSource = iconPages;
+            iconSource = 'ios-albums';
             break;
           // case 'Components':
           //   iconSource = iconComponents;
           //   break;
           default:
-            iconSource = iconComponents;
+            iconSource = 'ios-film';
         }
         return (
           <View style={styles.tabBarItemContainer}>
-            <Image
-              resizeMode="contain"
-              source={iconSource}
-              style={[styles.tabBarIcon, focused && styles.tabBarIconFocused]}
-            />
+            <Icon.Ionicons name={iconSource} size={30} color={colors.grey} />
           </View>
         );
       },

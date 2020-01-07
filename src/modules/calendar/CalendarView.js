@@ -67,12 +67,12 @@ class CalendarScreen extends React.Component {
         renderEmptyDate={this.renderEmptyDate}
         rowHasChanged={this.rowHasChanged}
         theme={{
-          dotColor: colors.primaryLight,
-          selectedDayBackgroundColor: colors.primaryLight,
-          agendaDayTextColor: colors.primaryLight,
-          agendaDayNumColor: colors.primaryLight,
-          agendaTodayColor: '#4F44B6',
-          backgroundColor: '#F1F1F8',
+          dotColor: colors.grey,
+          selectedDayBackgroundColor: colors.grey,
+          agendaDayTextColor: colors.grey,
+          agendaDayNumColor: colors.grey,
+          agendaTodayColor: colors.grey,
+          backgroundColor: colors.vampireblack,
         }}
       />
     );

@@ -1,4 +1,5 @@
 const blueVersion = {
+  // Custom color
   primary: '#555CC4',
   primaryLight: '#829BF8',
   primaryGradientStart: '#4f44b6',
@@ -9,6 +10,8 @@ const blueVersion = {
   profileGradientEnd: '#49D2D0',
   secondary: '#FF1358',
   transparent: 'transparent',
+  smokyblack: '#140f0a',
+  vampireblack: '#080808',
 
   black: '#22292f',
   greydarkest: '#3d4852',

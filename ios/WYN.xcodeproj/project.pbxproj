@@ -23,6 +23,8 @@
 		48394C5EF1768ED8C35C7D18 /* libPods-WYN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D156F582C1B04E228B5E4 /* libPods-WYN-tvOS.a */; };
 		539D1DF0EC50A9F74524C196 /* libPods-WYN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44116C03760AA57DD324D60 /* libPods-WYN.a */; };
 		68D4C32E2F95BF7BD1CBA0B1 /* libPods-WYN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2042F9EBA73D16599FEABA9 /* libPods-WYN-tvOSTests.a */; };
+		6D8BC49523C32F300082CE5A /* 1and0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BC49423C32F2F0082CE5A /* 1and0.png */; };
+		6D8BC49623C32F300082CE5A /* 1and0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BC49423C32F2F0082CE5A /* 1and0.png */; };
 		7A004D59437B481DB84EF1BD /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCD8A9212FFC4B2DACE21241 /* Lato-LightItalic.ttf */; };
 		9726408B7AF74E33BCED82AF /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87AB68E60ED448C69D5FEC67 /* Lato-Thin.ttf */; };
 		99BBF374DD45480995651422 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9733957D14BC4A7794A00675 /* Lato-Semibold.ttf */; };
@@ -78,6 +80,7 @@
 		5C74E3079C3F7091EFD3EA02 /* Pods-WYN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-WYN-tvOS/Pods-WYN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6196DA56AE574EBB8FE9D1DE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		6D0359AB4E5D446D84471DD2 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		6D8BC49423C32F2F0082CE5A /* 1and0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1and0.png; path = ../../../Pictures/1and0.png; sourceTree = "<group>"; };
 		81F5D73A8AA6499A51ABD33D /* Pods-WYNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNTests.release.xcconfig"; path = "Target Support Files/Pods-WYNTests/Pods-WYNTests.release.xcconfig"; sourceTree = "<group>"; };
 		84419E7EF7173CCDB487E747 /* Pods-WYNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNTests.debug.xcconfig"; path = "Target Support Files/Pods-WYNTests/Pods-WYNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		87AB68E60ED448C69D5FEC67 /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				6D8BC49423C32F2F0082CE5A /* 1and0.png */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -400,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8BC49623C32F300082CE5A /* 1and0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +418,7 @@
 				F9E9D159FB6F4779A96E786F /* Lato-BoldItalic.ttf in Resources */,
 				C7CDD5642487405E9F1CBB52 /* Lato-Italic.ttf in Resources */,
 				3D50A5E2DD3346E59E5C1832 /* Lato-Light.ttf in Resources */,
+				6D8BC49523C32F300082CE5A /* 1and0.png in Resources */,
 				7A004D59437B481DB84EF1BD /* Lato-LightItalic.ttf in Resources */,
 				2C5033471AC94453A4274C28 /* Lato-Medium.ttf in Resources */,
 				DC6B3493B73840D1A437CD55 /* Lato-Regular.ttf in Resources */,
