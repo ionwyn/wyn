@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderBottomWidth: 2,
     paddingHorizontal: 10,
-    paddingTop: 7,
+    paddingTop: 0,
   },
   tabBarIcon: {
     width: 23,
@@ -90,7 +90,6 @@ export default createBottomTabNavigator(
       navigationOptions: {
         header: (
           <View style={styles.headerContainer}>
-            <Image style={styles.headerImage} source={hederBackground} />
             <Text style={styles.headerCaption}>Pages</Text>
           </View>
         ),
@@ -98,14 +97,6 @@ export default createBottomTabNavigator(
     },
     Milestones: {
       screen: MilestonesScreen,
-      navigationOptions: {
-        header: (
-          <View style={styles.headerContainer}>
-            <Image style={styles.headerImage} source={hederBackground} />
-            <Text style={styles.headerCaption}>Milestones</Text>
-          </View>
-        ),
-      },
     },
     // Components: {
     //   screen: ComponentsScreen,
@@ -141,6 +132,9 @@ export default createBottomTabNavigator(
           // case 'Components':
           //   iconSource = iconComponents;
           //   break;
+          case 'Milestones':
+            iconSource = 'ios-medal';
+            break;
           default:
             iconSource = 'ios-film';
         }

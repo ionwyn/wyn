@@ -46,9 +46,13 @@ export default function MilestonesScreen(props) {
       <Timeline
         data={this.data}
         innerCircle={'dot'}
-        lineColor={colors.smokyblack}
-        circleColor={colors.smokyblack}
-        descriptionStyle={{ color: 'gray' }}
+        lineColor={colors.white}
+        circleColor={colors.white}
+        dotColor={colors.black}
+        timeStyle={{ textAlign: 'center', color: 'white', padding: 5 }}
+        descriptionStyle={{ color: 'white' }}
+        titleStyle={{ color: 'white', paddingTop: 0 }}
+        detailContainerStyle={{ color: 'white', paddingTop: 20 }}
       />
     </View>
   );
@@ -57,8 +61,6 @@ export default function MilestonesScreen(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.white,
-    paddingTop: 40,
-    paddingVertical: 30,
+    backgroundColor: colors.vampireblack,
   },
 });

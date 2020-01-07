@@ -38,7 +38,6 @@ const stackNavigator = createStackNavigator(
           <>
             <Image
               style={{
-                flex: 1,
                 width,
               }}
               source={headerBackground}
