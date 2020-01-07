@@ -6895,10 +6895,10 @@ react-native-text-size@^2.0.4:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-native-text-size/-/react-native-text-size-2.1.1.tgz#e26823c4504576964acc258db44009df81189332"
 
-react-native-timeline-listview@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/react-native-timeline-listview/-/react-native-timeline-listview-0.2.3.tgz#e46b7f0fd2c2206329eee6194795e03899afe882"
-  integrity sha1-5Gt/D9LCIGMp7uYZR5XgOJmv6II=
+react-native-timeline-flatlist@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-timeline-flatlist/-/react-native-timeline-flatlist-0.5.0.tgz#6f7e02c16a4bb073e15865ce2bda7c84a6dd8472"
+  integrity sha512-3W6JQLNGsoCsqyoXgBAa+oj2p88cIoX68et67ts0T/f2suuD8xdzsUXreqkDwfFSQ+OQevRO0qmkJqoQqZ62HQ==
 
 react-native-ui-lib@^3.39.0:
   version "3.39.0"

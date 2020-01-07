@@ -1,7 +1,6 @@
-import { compose, withState } from 'recompose';
+// @flow
+import { compose } from 'recompose';
 
-import HomeScreen from './HomeView';
+import MilestonesView from './MilestonesView';
 
-export default compose(withState('isExtended', 'setIsExtended', false))(
-  HomeScreen
-);
+export default compose()(MilestonesView);

@@ -9,7 +9,10 @@ import HomeScreen from '../home/HomeViewContainer';
 import CalendarScreen from '../calendar/CalendarViewContainer';
 import GridsScreen from '../grids/GridsViewContainer';
 import PagesScreen from '../pages/PagesViewContainer';
+import MilestonesScreen from '../milestones/MilestonesView';
+
 import ComponentsScreen from '../components/ComponentsViewContainer';
+
 import Icon from '../../styles/icons';
 
 const hederBackground = require('../../../assets/images/topBarBg.png');
@@ -89,6 +92,17 @@ export default createBottomTabNavigator(
           <View style={styles.headerContainer}>
             <Image style={styles.headerImage} source={hederBackground} />
             <Text style={styles.headerCaption}>Pages</Text>
+          </View>
+        ),
+      },
+    },
+    Milestones: {
+      screen: MilestonesScreen,
+      navigationOptions: {
+        header: (
+          <View style={styles.headerContainer}>
+            <Image style={styles.headerImage} source={hederBackground} />
+            <Text style={styles.headerCaption}>Milestones</Text>
           </View>
         ),
       },
